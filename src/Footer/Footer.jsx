@@ -1,5 +1,6 @@
 import React from 'react'
-import { BsTwitter, BsMedium } from 'react-icons/bs'
+import { BsTwitter} from 'react-icons/bs'
+import { BsMedium } from 'react-icons/bs'
 import {SiGmail} from 'react-icons/si'
 import { FaLinkedinIn } from 'react-icons/fa'
 import './Footer.css'
