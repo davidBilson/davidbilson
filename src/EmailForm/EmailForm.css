@@ -1,0 +1,47 @@
+#emailForm {
+    background:inherit;
+    outline: none;
+    width: 100%;
+}
+#email::placeholder {
+    color: var(--color6);
+}
+#email {
+    outline: none;
+    background: none;
+    color: var(--color6);
+    border: 2px solid var(--color7);
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+#message {
+    outline: none;
+    background: none;
+    color: var(--color6);
+    border: 2px solid var(--color7);
+    padding: 10px;
+    width: 100%;
+    height: 160px;
+    margin-bottom: 1rem;
+}
+#message::placeholder {
+    color: var(--color6);
+}
+#submitBtn {
+    background: var(--color2);
+    padding: .8rem 4rem;
+    font-weight: bold;
+    font-size: medium;
+    color: var(--color5);
+    transition: .5s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+}
+#submitBtn:active, #submitBtn:hover {
+    border-radius: 0 100% 100% 0;
+    background: var(--color2);
+    color: var(--color4);
+}

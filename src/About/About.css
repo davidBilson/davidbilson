@@ -1,0 +1,103 @@
+.about-container {
+    max-width: 1300px;
+    margin: 9rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-f-container {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.about-f-container > p {
+    line-height: 1.7rem;
+    color: lightgray;
+}
+.about-image-container {
+    width: 400px;
+    height: 400px;
+    border-radius: 300px;
+    border: 10px solid lightgrey;
+    overflow: hidden;
+    box-shadow: 0px 20px 50px black;
+}
+.about-heading {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--color8);
+    margin-bottom: 1rem;
+}
+.line {
+    width: 120px;
+    height: 2px;
+    background: grey;
+}
+
+.skills-button {
+    color: beige;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+}
+.skills-button > span {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    border: 1px solid grey;
+    padding: 2px;
+}
+@media only screen and (max-width: 480px) {
+    .about-container {
+        max-width: 100%;
+        margin: 5rem auto;
+        padding: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 4rem;
+    }
+    .about-f-container {
+        max-width: 480px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .about-f-container > p {
+        line-height: 1.7rem;
+        color: lightgray;
+    }
+    .about-image-container {
+        width: 400px;
+        height: 400px;
+        border-radius: 300px;
+        border: 10px solid beige;
+        overflow: hidden;
+        box-shadow: 0px 20px 50px black;
+    }
+    .line {
+        width: 80px;
+    }
+    .skills-button {
+        font-size: .8rem;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    .about-image-container {
+        width: 310px;
+        height: 310px;
+    }
+    .about-heading {
+        gap: .5rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
