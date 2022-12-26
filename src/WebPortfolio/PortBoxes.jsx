@@ -6,15 +6,16 @@ import ImageFour from '../Assets/image4.jpeg';
 import ImageFive from '../Assets/image5.jpeg';
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import './WebPortf.css'
 
 const PortBoxes = () => {
     useEffect(() => {
         AOS.init({duration:2000})
-    }, [])
+    }, []);
+
   return (
-    <div className='port-box-container'>
-        <div className='port-boxes' data-aos="fade-up">
+    <div className='port-box-container' >
+        <div className='port-boxes' data-aos="fade-up" onClick={() => window.open('https://www.wow-salons.com/','_blank',"noreferrer")}>
 
                 <div>
                 <img src={ImageOne} loading='lazy' alt="Wow Salons First Portfolio Image" />
@@ -33,7 +34,7 @@ const PortBoxes = () => {
                 </div>
 
             </div>
-        <div className='port-boxes' data-aos="fade-up">
+        <div className='port-boxes' data-aos="fade-up" onClick={() => window.open('https://www.workxiebillionaire.xyz/','_blank',"noreferrer")}>
 
                 <div>
                 <img src={ImageTwo} loading='lazy' alt="Wow Salons First Portfolio Image" />
@@ -52,7 +53,7 @@ const PortBoxes = () => {
                 </div>
 
             </div>
-        <div className='port-boxes' data-aos="fade">
+        <div className='port-boxes' data-aos="fade" onClick={() => window.open('https://www.fantazia.ae/','_blank',"noreferrer")}>
 
                 <div>
                 <img src={ImageThree} loading='lazy' alt="Wow Salons First Portfolio Image" />
@@ -70,7 +71,7 @@ const PortBoxes = () => {
                 </div>
 
             </div>
-        <div className='port-boxes' data-aos="fade-down">
+        <div className='port-boxes' data-aos="fade-down" onClick={() => window.open('https://www.matrixevents.me/','_blank',"noreferrer")}>
 
                 <div>
                 <img src={ImageFour} loading='lazy' alt="Wow Salons First Portfolio Image" />
@@ -88,7 +89,7 @@ const PortBoxes = () => {
                 </div>
 
             </div>
-        <div className='port-boxes' data-aos="fade">
+        <div className='port-boxes' data-aos="fade" onClick={() => window.open('https://www.easydrumming.com.ng/','_blank',"noreferrer")}>
 
                 <div>
                 <img src={ImageFive} loading='lazy' alt="Wow Salons First Portfolio Image" />
@@ -98,7 +99,7 @@ const PortBoxes = () => {
                 <h3>Easy Drumming</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, rem.</p>
                 </div>
-                
+
                 <div>
                     <button>HTML</button>
                     <button>CSS</button>
