@@ -29,8 +29,8 @@ const PortBoxes = () => {
                 <div>
                     <button data-aos="fade-up">HTML</button>
                     <button data-aos="fade-up">CSS</button>
-                    <button data-aos="fade-up">BOOTSTRAP</button>
                     <button data-aos="fade-up">JAVASCRIPT</button>
+                    <button data-aos="fade-up">RESOURCES</button>
                 </div>
 
             </div>
@@ -67,7 +67,8 @@ const PortBoxes = () => {
                 <div>
                     <button data-aos="fade-up">HTML</button>
                     <button data-aos="fade-up">CSS</button>
-                    <button data-aos="fade-up">BOOTSTRAP</button>
+                    <button data-aos="fade-up">JAVASCRIPT</button>
+                    <button data-aos="fade-up">RESOURCES</button>
                 </div>
 
             </div>
@@ -86,6 +87,7 @@ const PortBoxes = () => {
                     <button>HTML</button>
                     <button>CSS</button>
                     <button>JAVASCRIPT</button>
+                    <button>RESOURCES</button>
                 </div>
 
             </div>
@@ -103,7 +105,8 @@ const PortBoxes = () => {
                 <div>
                     <button>HTML</button>
                     <button>CSS</button>
-                    <button>BOOTSTRAP</button>
+                    <button>JAVASCRIPT</button>
+                    <button>RESOURCES</button>
                 </div>
 
             </div>
