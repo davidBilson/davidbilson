@@ -19,7 +19,7 @@
   gap: .5rem;
 }
 .gold {
-    color: gold;
+    color: var(--color2);
 }
 .navigation-menu {
   margin-left: auto;

@@ -23,7 +23,7 @@ const PortBoxes = () => {
 
                 <div>
                 <h3>Wow Beauty Salon</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, rem.</p>
+                <p>The website offers a modern and intuitive design, allowing customers to easily book appointments and browse services.</p>
                 </div>
                 
                 <div>
@@ -42,13 +42,13 @@ const PortBoxes = () => {
 
                 <div>
                 <h3>WorkxieBillionaire</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, rem.</p>
+                <p>A WEB3 community-driven project built with reactjs and solidityjs. WXB has created more earners than any NFT projects.</p>
                 </div>
                 
                 <div>
                     <button data-aos="fade-up">REACT</button>
                     <button data-aos="fade-up">CSS</button>
-                    <button data-aos="fade-up">JSX</button>
+                    <button data-aos="fade-up">SOLIDITY</button>
                     <button data-aos="fade-up">RESOURCES</button>
                 </div>
 
@@ -61,7 +61,7 @@ const PortBoxes = () => {
 
                 <div>
                 <h3> Fantazia Events Management</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, rem.</p>
+                <p>Fantazia books event and staging services, including AV rentals and lighting design. Service that help plan and execute events.</p>
                 </div>
                 
                 <div>
@@ -78,14 +78,14 @@ const PortBoxes = () => {
                 </div>
 
                 <div>
-                <h3>Matrix Events</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, rem.</p>
+                <h3>Matrix</h3>
+                <p>Matrix website is a unique blend of mixed experiences. Maxtrix events helps plan and execute your events. Simple booking available on site</p>
                 </div>
                 
                 <div>
                     <button>HTML</button>
                     <button>CSS</button>
-                    <button>BOOTSTRAP</button>
+                    <button>JAVASCRIPT</button>
                 </div>
 
             </div>
@@ -97,7 +97,7 @@ const PortBoxes = () => {
 
                 <div>
                 <h3>Easy Drumming</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, rem.</p>
+                <p>An e-book sales funnel for drummers to improve skills and reach goals. Expert advice and strategies for proficiency and growth.</p>
                 </div>
 
                 <div>
