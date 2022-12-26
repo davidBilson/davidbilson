@@ -12,7 +12,7 @@
 .brand-name {
   text-decoration: none;
   color: var(--color6);
-  font-size: 1rem;
+  font-size: 1.3rem;
   padding: 0 1rem;
   display: flex;
   align-items: center;
@@ -43,14 +43,13 @@
   }
   .hamburger {
     border: 0;
-    height: 40px;
-    width: 40px;
-    padding: 0.5rem;
-    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    padding: 0rem;
     cursor: pointer;
     position: absolute;
     top: 50%;
-    right: 25px;
+    right: 15px;
     transform: translateY(-50%);
     display: none;
     color:white;

@@ -9,7 +9,7 @@ import {TfiWrite} from 'react-icons/tfi';
 
 const About = () => {
   return (
-    <section className='about-container'>
+    <section className='about-container' id='about'>
         <div className='about-f-container'>
             <div className='about-heading'>
                 <h2 data-aos="fade-in">About me</h2>

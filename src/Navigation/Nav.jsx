@@ -5,28 +5,13 @@ import './Nav.css'
 import { useState } from 'react'
 
 const Nav = () => {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
 
-    const [isNavExpanded, setIsNavExpanded] = useState(false)
+
   return (
-    // <nav className='navigation'>
-    //     <div className='nav-logo'>
-    //         <a href="#">davidBilson <MdVerified className='gold' /></a>
-    //     </div>
-    //     <div className={'nav-list'} >
-    //         <ul>
-    //             <li>About</li>
-    //             <li>Experience</li>
-    //             <li>Portfolio</li>
-    //             <li>Contact</li>
-    //         </ul>
-    //     </div>
-    //     <div className='nav-menu'>
-    //         <BsFillMenuButtonWideFill onClick={toggleMenu} />
-    //     </div>
-    // </nav>
     <nav className="navigation">
     <a href="#" className="brand-name">
-      David Bilson <MdVerified className='gold' />
+      DavidBilson <MdVerified className='gold' />
     </a>
     <button className="hamburger" onClick={() => {
           setIsNavExpanded(!isNavExpanded)
@@ -38,13 +23,13 @@ const Nav = () => {
           isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
       <ul>
         <li>
-          <a href="#about">Experience</a>
+          <a href="#about" onClick={() => {setIsNavExpanded(!isNavExpanded)}}>About</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio" onClick={() => {setIsNavExpanded(!isNavExpanded)}}>Portfolio</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact" onClick={() => {setIsNavExpanded(!isNavExpanded)}}>Contact</a>
         </li>
       </ul>
     </div>
