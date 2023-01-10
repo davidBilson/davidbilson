@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
 }
 body {
-    background: var(--color0);
+    background: var(--bg-color1);
     overflow-y: scroll;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -18,6 +18,7 @@ ul {
 }
 img {
     width: 100%;
+    border-radius: inherit;
 }
 a {
     text-decoration: none;
@@ -27,15 +28,17 @@ p {
     font-weight: 300;
 }
 :root {
+    --bg-color1:#111;
+    --bg-color2:#202020;
     --color0:#1B1B2A;
-    --color1:#D4A353;
-    --color2:#D4A353;
+    --color1:crimson;
+    --color2:crimson;
     --color3:grey;
-    --color4:ghostwhite;
-    --color5:#232C33;
+    --color4:rgb(238, 238, 238);
+    --color5:#202020;
     --color6:lightgrey;
-    --color7:#505D59;
-    --color8:white;
+    --color7:dimgrey;
+    --color8:rgb(238, 238, 238);
     --color9:darkgrey;
 
 }

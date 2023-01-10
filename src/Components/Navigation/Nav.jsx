@@ -1,6 +1,5 @@
 import React from 'react'
-import {MdVerified} from 'react-icons/md'
-import {BsFillMenuButtonWideFill} from 'react-icons/bs'
+import {BiMenuAltRight} from 'react-icons/bi'
 import './Nav.css'
 import { useState } from 'react'
 
@@ -11,12 +10,12 @@ const Nav = () => {
   return (
     <nav className="navigation">
     <a href="#" className="brand-name">
-      DavidBilson <MdVerified className='gold' />
+      DavidBilson
     </a>
     <button className="hamburger" onClick={() => {
           setIsNavExpanded(!isNavExpanded)
         }}>
-      <BsFillMenuButtonWideFill />
+      <BiMenuAltRight />
     </button>
     <div
       className={

@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import ImageOne from '../Assets/image1.jpeg';
-import ImageTwo from '../Assets/image2.jpeg';
-import ImageThree from '../Assets/image3.jpeg';
-import ImageFour from '../Assets/image4.jpeg';
-import ImageFive from '../Assets/image5.jpeg';
+import ImageOne from '../../Assets/image1.jpeg';
+import ImageTwo from '../../Assets/image2.jpeg';
+import ImageThree from '../../Assets/image3.jpeg';
+import ImageFour from '../../Assets/image4.jpeg';
+import ImageFive from '../../Assets/image5.jpeg';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import './WebPortf.css'
@@ -23,7 +23,7 @@ const PortBoxes = () => {
 
                 <div>
                 <h3>Wow Beauty Salon</h3>
-                <p>The website offers a modern and intuitive design, allowing customers to easily book appointments and browse services.</p>
+                <p>The website offers an intuitive modern design, allowing customers to easily book appointments and services.</p>
                 </div>
                 
                 <div>
@@ -42,7 +42,7 @@ const PortBoxes = () => {
 
                 <div>
                 <h3>WorkxieBillionaire</h3>
-                <p>A WEB3 community-driven project built with reactjs and solidityjs. WXB has created more earners than any NFT projects.</p>
+                <p>A WEB3 community-driven project built with reactjs and solidityjs. WXB created more earners than any NFT projects.</p>
                 </div>
                 
                 <div>
@@ -61,7 +61,7 @@ const PortBoxes = () => {
 
                 <div>
                 <h3> Fantazia Events Management</h3>
-                <p>Fantazia books event and staging services, including AV rentals and lighting design. Service that help plan and execute events.</p>
+                <p>Fantazia books event and staging services, including AV rentals and lighting design. Service that help plan events.</p>
                 </div>
                 
                 <div>
@@ -80,7 +80,7 @@ const PortBoxes = () => {
 
                 <div>
                 <h3>Matrix</h3>
-                <p>Matrix website is a unique blend of mixed experiences. Maxtrix events helps plan and execute your events. Simple booking available on site</p>
+                <p>Matrix website is a unique blend of mixed experiences. Maxtrix events helps plan and execute your events. Simple booking</p>
                 </div>
                 
                 <div>

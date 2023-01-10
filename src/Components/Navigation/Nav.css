@@ -8,6 +8,14 @@
   padding: 1rem 0rem;
   background-color: inherit;
   color: black;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+background: rgba(0, 0, 0, 0);
+border-radius: 16px 16px 0 0;
+box-shadow: 0 40px 100px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
 }
 .brand-name {
   text-decoration: none;
@@ -54,6 +62,7 @@
     display: none;
     color:white;
     background: none;
+    font-size: 2rem;
   }
   @media screen and (max-width: 768px) {
     .hamburger {
@@ -70,11 +79,15 @@
         width: 100%;
         height: fit-content;
         border-top: 1px solid black;
-        background: var(--color7);
+        background: var(--bg-color2);
       }
       .navigation-menu li {
         text-align: center;
         margin: 0;
+        border-bottom: 1px solid rgb(73, 73, 73);
+      }
+      .navigation-menu li:last-child {
+        border-bottom: none;
       }
       .navigation-menu li a {
         color: var(--color6);

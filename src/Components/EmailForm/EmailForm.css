@@ -29,19 +29,18 @@
     color: var(--color6);
 }
 #submitBtn {
-    background: var(--color2);
+    outline: none;
     padding: .8rem 4rem;
     font-weight: bold;
     font-size: medium;
-    color: var(--color5);
     transition: .5s ease-in-out;
     display: flex;
     align-items: center;
     gap: 10px;
-    border: none;
+    background: none;
+    color: var(--color7);
+    border: 2px solid var(--color7);
 }
 #submitBtn:active, #submitBtn:hover {
     border-radius: 0 100% 100% 0;
-    background: var(--color2);
-    color: var(--color4);
 }

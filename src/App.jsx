@@ -1,10 +1,11 @@
 import React from 'react'
-import About from './About/About'
-import Contact from './Contact/Contact'
-import Footer from './Footer/Footer'
-import Intro from './Intro/Intro'
-import Nav from './Navigation/Nav'
-import WebPortf from './WebPortfolio/WebPortf'
+import About from './Components/About/About'
+import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
+import Nav from './Components/Navigation/Nav'
+import Intro from './Components/Intro/Intro'
+import WebPortfolio from './Components/WebPortfolio/WebPortf'
+import Latest from './Components/Latest/Latest'
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <Nav />
       <Intro />
       <About />
-      <WebPortf />
+      <WebPortfolio />
+      <Latest />
       <Contact />
       <Footer />
     </>
