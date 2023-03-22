@@ -6,7 +6,6 @@ import { useState } from 'react'
 const Nav = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
-
   return (
     <nav className="navigation">
     <a href="#" className="brand-name">
