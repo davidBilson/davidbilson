@@ -14,11 +14,12 @@ const EmailForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     const message = form.current.user_message.value.trim();
-    const regex = /^(\S+\s){4,}\S*$/; // regex to check for at least five words
-    if (!regex.test(message)) {
+    const wordCount = message.split(/\s+/).length;
+    if (wordCount < 5) {
       setErrorMessage("Come on!! It's less than 5 words...");
       return;
     }
+    setErrorMessage('');
     emailjs.sendForm('service_g3ea0qx', 'template_qfzfdfp', form.current, '0p5ukCIa4FZJtmdSE')
       .then((result) => {
           console.log(result.text);
@@ -31,13 +32,7 @@ const EmailForm = () => {
   return (
     <section id='emailForm'>
       <form ref={form} onSubmit={sendEmail} >
-        <input 
-        name='user_email' 
-        type="email" 
-        id="email" 
-        placeholder='Email' 
-        required
-         />
+        <input name='user_email' type="email" id="email" placeholder='Email' required />
         <br />
         <textarea name='user_message' id="message" placeholder='Write message...' required >
         </textarea>
