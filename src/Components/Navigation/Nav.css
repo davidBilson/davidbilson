@@ -1,5 +1,6 @@
 .navigation {
   height: 60px;
+  width: 95%;
   max-width: 1300px;
   margin: 0 auto;
   display: flex;
@@ -57,16 +58,24 @@ backdrop-filter: blur(5px);
     cursor: pointer;
     position: absolute;
     top: 50%;
-    right: 15px;
+    right: 0px;
     transform: translateY(-50%);
     display: none;
     color:white;
     background: none;
     font-size: 2rem;
   }
+
+  @media screen and (max-width: 1024px) {
+
+  }
   @media screen and (max-width: 768px) {
     .hamburger {
       display: block;
+    }
+    .navigation {
+      height: 60px;
+      width: 100%;
     }
     .navigation-menu ul {
         display: none;

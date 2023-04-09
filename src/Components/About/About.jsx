@@ -8,6 +8,9 @@ import {SiTailwindcss, SiCanva} from 'react-icons/si';
 import {TfiWrite} from 'react-icons/tfi';
 
 const About = () => {
+  const underlineLink = {
+    textDecoration: "underline"
+  }
   return (
     <section className='about-container' id='about'>
         <div className='about-f-container'>
@@ -15,7 +18,9 @@ const About = () => {
                 <h2 data-aos="fade-in">About <span className="red">Me</span></h2>
                 <span className='line'></span>
             </div>
-            <p>Hello, my name is David and I am a professional web developer and technical writer. I have a strong background in web development, with a focus on creating user-friendly and engaging websites. I also have experience writing technical documents and articles, making complex topics easy to understand. With my skills and experience, I am well-equipped to help businesses and individuals achieve their goals online. I am passionate about using my skills and expertise to help others succeed.</p>
+            <p>Hi!!! My name is David Bilson. I'm a professional web developer and technical writer. I have a strong background in engineering on the frontend, creating functional and responsive websites. I have written articles on high profile platforms like <a href="https://dev.to/david_bilsonn" style={underlineLink}>DevTo</a> and <a href="https://medium.com/@davidbilson99" style={underlineLink}>Medium</a>
+            In addition to that, I have also written technical documentations and articles for individuals and companies. <br /> Alongside engineering and writing, I also coach and mentor newbies in fronend development as I'm passionate about using my skills and expertise to help others succeed. <br />
+            I am currently open to new employment opportunities and would welcome the chance to work with a team that shares my passion for engineering on the frontend. If you are keen to learn more about what I have to offer, please don't hesitate to reach out. Let's connect and explore how we can work together to make amazing things happen!!!</p>
             <h3 className='stack'>Stacks and <span className="red">Tools</span></h3>
             <div className='skills-button'>
 

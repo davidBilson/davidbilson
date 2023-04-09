@@ -1,4 +1,5 @@
 .portfolio-section {
+    width: 95%;
     max-width: 1300px;
     margin: 9rem auto;
 }
@@ -71,6 +72,7 @@
 
 @media only screen and (max-width: 480px)  {
     .portfolio-section {
+        width: 100%;
         max-width: 100%;
         margin: 5rem auto;
         padding: 1.2rem;

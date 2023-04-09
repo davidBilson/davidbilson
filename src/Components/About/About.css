@@ -2,12 +2,14 @@
     color: var(--color9);
 }
 .about-container {
+    width: 95%;
     max-width: 1300px;
     margin: 9rem auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 .about-f-container {
     max-width: 750px;
@@ -64,6 +66,7 @@
 }
 @media only screen and (max-width: 480px) {
     .about-container {
+        width: 100%;
         max-width: 100%;
         margin: 5rem auto;
         padding: 1.5rem;
