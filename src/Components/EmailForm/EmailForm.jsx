@@ -14,7 +14,7 @@ const EmailForm = () => {
           console.log(result.text);
           console.log("message sent!");
           toast.success('Message sent!', {
-            position: "top-right",
+            position: "top-center",
             autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: true,
@@ -27,7 +27,7 @@ const EmailForm = () => {
           console.log(error.text);
           console.log("error sending message, try again!")
           toast.error('Error sending message, try again! You can also contact me via Twiter or LinkedIn!', {
-            position: "top-center",
+            position: "bottom-center",
             autoClose: 3000,
             hideProgressBar: false,
             closeOnClick: true,
