@@ -26,7 +26,7 @@ const EmailForm = () => {
       }, (error) => {
           console.log(error.text);
           console.log("error sending message, try again!")
-          toast.error('🦄 Error sending message, try again!', {
+          toast.error('Error sending message, try again! You can also contact me via Twiter or LinkedIn!', {
             position: "top-center",
             autoClose: 3000,
             hideProgressBar: false,
