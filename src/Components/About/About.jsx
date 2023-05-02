@@ -1,15 +1,20 @@
 import React from 'react';
-import Header from '../../Assets/header.jpg';
+import Header from '../../Assets/header.webp';
 import './About.css';
-import {AiFillHtml5} from 'react-icons/ai';
+import {AiFillHtml5, AiOutlineDownload} from 'react-icons/ai';
 import {DiJavascript1, DiCss3Full, DiSass} from 'react-icons/di';
 import {FaReact} from 'react-icons/fa';
 import {SiTailwindcss, SiCanva} from 'react-icons/si';
 import {TfiWrite} from 'react-icons/tfi';
+import Resume from '../About/DavidBilson_Resume_2023.pdf'
 
 const About = () => {
   const underlineLink = {
     textDecoration: "underline"
+  }
+  const downloadFile = () => {
+    const fileUrl = Resume;
+    window.open(fileUrl, "_blank")
   }
   return (
     <section className='about-container' id='about'>
@@ -21,9 +26,9 @@ const About = () => {
             <p>Hi!!! My name is David Bilson. I'm a professional web developer and technical writer. I have a strong background in engineering on the frontend, creating functional and responsive websites. I have written articles on high profile platforms like <a href="https://dev.to/david_bilsonn" style={underlineLink}>DevTo</a> and <a href="https://medium.com/@davidbilson99" style={underlineLink}>Medium</a>. 
             In addition to that, I have also written technical documentations and articles for individuals and companies. <br /> Alongside engineering and writing, I also coach and mentor newbies in frontend development as I'm passionate about using my skills and expertise to help others succeed. <br />
             I am currently open to new employment opportunities and would welcome the chance to work with a team that shares my passion for engineering on the frontend. If you are keen to learn more about what I have to offer, please don't hesitate to reach out. Let's connect and explore how we can work together to make amazing things happen!!!</p>
+            <button onClick={downloadFile} download className="resume-btn"><AiOutlineDownload className='resume-download-icon' />Resume</button>
             <h3 className='stack'>Stacks and <span className="red">Tools</span></h3>
             <div className='skills-button'>
-
             <span data-aos="fade-in"><AiFillHtml5 className='skill-icon red'/></span>
             <span data-aos="fade-down"><DiJavascript1 className='skill-icon yellow'/></span>
             <span data-aos="fade-up"><FaReact className='skill-icon dodgerblue'/></span>

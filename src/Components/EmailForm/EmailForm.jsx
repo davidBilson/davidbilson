@@ -38,7 +38,6 @@ const EmailForm = () => {
             });
       });
   };
-  
   return (
     <section id='emailForm'>
     <ToastContainer />

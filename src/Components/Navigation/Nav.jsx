@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <nav className="navigation">
     <a href="#" className="brand-name">
-      DavidBilson
+      David<span className='red'>Bilson</span>
     </a>
     <button className="hamburger" onClick={() => {
           setIsNavExpanded(!isNavExpanded)

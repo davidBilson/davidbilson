@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import ImageOne from '../../Assets/image1.jpeg';
-import ImageTwo from '../../Assets/image2.jpeg';
-import ImageThree from '../../Assets/image3.jpeg';
-import ImageFour from '../../Assets/image4.jpeg';
-import ImageFive from '../../Assets/image5.jpeg';
+import ImageOne from '../../Assets/image1.webp';
+import ImageTwo from '../../Assets/image2.webp';
+import ImageThree from '../../Assets/image3.webp';
+import ImageFour from '../../Assets/image4.webp';
+import ImageFive from '../../Assets/image5.webp';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import './WebPortf.css'

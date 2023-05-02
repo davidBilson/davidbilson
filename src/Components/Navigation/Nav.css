@@ -22,10 +22,12 @@ backdrop-filter: blur(5px);
   text-decoration: none;
   color: var(--color6);
   font-size: 1.3rem;
+  font-weight: 600;
   padding: 0 1rem;
   display: flex;
   align-items: center;
-  gap: .5rem;
+  justify-content: center;
+  gap: 0px;
 }
 .gold {
     color: var(--color2);
