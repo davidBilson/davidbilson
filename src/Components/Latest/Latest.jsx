@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react'
-import './Latest.css'
-import ImageThree from '../../Assets/image3.webp';
+import './Latest.css'   
 import AOS from "aos";
 import "aos/dist/aos.css";
 
