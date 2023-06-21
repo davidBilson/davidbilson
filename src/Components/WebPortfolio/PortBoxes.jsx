@@ -15,7 +15,11 @@ const PortBoxes = () => {
 
   return (
     <div className='port-box-container' >
-        <div className='port-boxes' data-aos="fade-up" onClick={() => window.open('https://www.wow-salons.com/','_blank',"noreferrer")}>
+        <div className='port-boxes' 
+        data-aos="fade-up" 
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+        onClick={() => window.open('https://www.wow-salons.com/','_blank',"noreferrer")}>
 
                 <div>
                 <img src={ImageOne} loading='lazy' alt="Wow Salons First Portfolio Image" />
@@ -34,7 +38,11 @@ const PortBoxes = () => {
                 </div>
 
             </div>
-        <div className='port-boxes' data-aos="fade-up" onClick={() => window.open('https://www.workxiebillionaire.xyz/','_blank',"noreferrer")}>
+        <div className='port-boxes' 
+        data-aos="fade-up" 
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1500"
+        onClick={() => window.open('https://www.workxiebillionaire.xyz/','_blank',"noreferrer")}>
 
                 <div>
                 <img src={ImageTwo} loading='lazy' alt="Wow Salons First Portfolio Image" />
@@ -53,7 +61,11 @@ const PortBoxes = () => {
                 </div>
 
             </div>
-        <div className='port-boxes' data-aos="fade" onClick={() => window.open('https://www.fantazia.ae/','_blank',"noreferrer")}>
+        <div className='port-boxes' 
+        data-aos="fade-up" 
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        onClick={() => window.open('https://www.fantazia.ae/','_blank',"noreferrer")}>
 
                 <div>
                 <img src={ImageThree} loading='lazy' alt="Wow Salons First Portfolio Image" />
@@ -72,7 +84,12 @@ const PortBoxes = () => {
                 </div>
 
             </div>
-        <div className='port-boxes' data-aos="fade-down" onClick={() => window.open('https://www.matrixevents.me/','_blank',"noreferrer")}>
+
+        <div className='port-boxes' 
+        data-aos="fade-up" 
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2500"
+        onClick={() => window.open('https://www.matrixevents.me/','_blank',"noreferrer")}>
 
                 <div>
                 <img src={ImageFour} loading='lazy' alt="Wow Salons First Portfolio Image" />
@@ -91,7 +108,11 @@ const PortBoxes = () => {
                 </div>
 
             </div>
-        <div className='port-boxes' data-aos="fade" onClick={() => window.open('https://www.easydrumming.com.ng/','_blank',"noreferrer")}>
+        <div className='port-boxes' 
+        data-aos="fade-up" 
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"
+        onClick={() => window.open('https://www.easydrumming.com.ng/','_blank',"noreferrer")}>
 
                 <div>
                 <img src={ImageFive} loading='lazy' alt="Wow Salons First Portfolio Image" />

@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 300;
     color: var(--color8);
     margin-bottom: 1rem;
@@ -44,26 +44,6 @@
     background: grey;
 }
 
-.skills-button {
-    color: beige;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1rem;
-}
-.skills-button > span {
-    font-size: 1.6rem;
-    display: flex;
-    align-items: center;
-    gap: 2px;
-    padding: 7px;
-    background: var(--color5);
-    box-shadow: 0px 0px 10px black;
-}
-.skills-button > span:hover {
-    background: var(--color5);
-}
 .resume-download-icon {
     margin-right: 7px;
     font-weight: 900;

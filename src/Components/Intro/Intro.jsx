@@ -6,7 +6,7 @@ const Intro = () => {
     <section className='intro'>
       <div className="intro-container">
         <h1 className='intro-text'>Hi, I am <span className="red">David Bilson</span></h1>
-        <p className='intro-preface'>I'm a software engineer, I specialize in creating intuitive and user-friendly websites that help businesses and individuals achieve their goals online. </p>
+        <p className='intro-preface'>As a Software Engineer, my specialization revolves around developing intuitive and user-friendly websites that enable businesses and individuals to effectively accomplish their objectives.</p>
         <span className='icon-container'>
         <a href="https://twitter.com/David_Bilsonn" target="_blank" className='icons'>
         <FiTwitter/>

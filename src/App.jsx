@@ -6,6 +6,7 @@ import Nav from './Components/Navigation/Nav'
 import Intro from './Components/Intro/Intro'
 import WebPortfolio from './Components/WebPortfolio/WebPortf'
 import Latest from './Components/Latest/Latest'
+import Skills from './Components/Skills/Skills'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Nav />
       <Intro />
       <About />
+      <Skills />
       <WebPortfolio />
       <Latest />
       <Contact />
