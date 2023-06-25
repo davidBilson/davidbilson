@@ -23,6 +23,10 @@ const EmailForm = () => {
             progress: undefined,
             theme: "light",
             });
+            
+          // Reset the form
+          form.current.reset();  
+
       }, (error) => {
           console.log(error.text);
           console.log("error sending message, try again!")
@@ -36,7 +40,11 @@ const EmailForm = () => {
             progress: undefined,
             theme: "light",
             });
-      });
+      }
+      
+      );
+      form.current.reset()
+
   };
 
   return (
