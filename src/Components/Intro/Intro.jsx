@@ -1,6 +1,7 @@
 import React from 'react'
 import './Intro.css'
 import {FiLinkedin, FiTwitter, FiGithub} from 'react-icons/fi'
+
 const Intro = () => {
   return (
     <section className='intro'>

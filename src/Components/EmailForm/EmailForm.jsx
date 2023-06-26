@@ -8,7 +8,9 @@ import 'react-toastify/dist/ReactToastify.css';
 const EmailForm = () => {
   const form = useRef();
   const sendEmail = (e) => {
+
     e.preventDefault();
+
     emailjs.sendForm('service_g3ea0qx', 'template_qfzfdfp', form.current, '0p5ukCIa4FZJtmdSE')
       .then((result) => {
           console.log(result.text);
@@ -51,9 +53,13 @@ const EmailForm = () => {
     <section id='emailForm'>
     <ToastContainer />
     <form ref={form} onSubmit={sendEmail} >
-      <input name='user_email' type="email" id="email" placeholder='Email' required />
+      <input 
+      name='user_name' type="text" id="email" placeholder='Name' required />
+      <input 
+      name='user_email' type="email" id="email" placeholder='Email' required />
       <br />
-      <textarea name='user_message' id="message" placeholder='Write message...' required ></textarea>
+      <textarea 
+      name='user_message' id="message" placeholder='Write message...' required ></textarea>
       <br />
       <button type="submit" id='submitBtn'>Shoot <MdOutlineSend /></button>
     </form>
