@@ -16,9 +16,8 @@ const Nav = () => {
         }}>
       <BiMenuAltRight />
     </button>
-    <div
-      className={
-          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
+
+    <div className={ isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
       <ul>
         <li>
           <a href="#about" onClick={() => {setIsNavExpanded(!isNavExpanded)}}>About</a>
