@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../../Assets/header.webp';
 import './About.css';
 import {AiOutlineDownload} from 'react-icons/ai';
-import Resume from '../About/DavidBilson_Resume_2023.pdf'
+import Resume from './DavidBIlsonWebDeveloperResume().pdf'
 
 const About = () => {
   const underlineLink = {
