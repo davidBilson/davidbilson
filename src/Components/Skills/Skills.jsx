@@ -7,7 +7,6 @@ import {SiGoogleanalytics, SiJavascript, SiTailwindcss, SiExpress} from 'react-i
 import {TbWriting} from 'react-icons/tb'
 import style from './Skills.module.css'
 
-
 const Skills = () => {
   return (
     <section className={style.skillsSection} >
@@ -16,15 +15,15 @@ const Skills = () => {
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="1200">
-            <span><AiOutlineHtml5 /></span>
-            <span>HTML</span>
+            <span><DiMongodb /></span>
+            <span>MongoDB</span>
         </div>
 
         <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="1400">
-            <span><DiCss3Full /></span>
-            <span>CSS</span>
+            <span><SiExpress /></span>
+            <span>ExpressJS</span>
         </div>
 
         <div data-aos="flip-left"
@@ -44,36 +43,36 @@ const Skills = () => {
         <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">
-            <span><TbWriting /></span>
-            <span>Technical Writing</span>
+            <span><FaNodeJs /></span>
+            <span>NodeJs</span>
         </div>
 
         <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2200">
-            <span><FaShopify /></span>
-            <span>Shopify</span>
-        </div>
-
-        <div data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2400">
             <span><SiTailwindcss /></span>
             <span>TailwindCSS</span>
         </div>
 
         <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
+        data-aos-duration="2400">
+            <span><DiCss3Full /></span>
+            <span>CSS</span>
+        </div>
+
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
         data-aos-duration="2600">
-            <span><DiMongodb /></span>
-            <span>MongoDB</span>
+            <span><AiOutlineHtml5 /></span>
+            <span>HTML</span>
         </div>
 
         <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2800">
-            <span><SiExpress /></span>
-            <span>ExpressJS</span>
+            <span><TbWriting /></span>
+            <span>Technical Writing</span>
         </div>
 
         <div data-aos="flip-left"
@@ -86,8 +85,8 @@ const Skills = () => {
         <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="3200">
-            <span><FaNodeJs /></span>
-            <span>NodeJs</span>
+            <span><FaShopify /></span>
+            <span>Shopify</span>
         </div>
 
         <div data-aos="flip-left"
@@ -96,7 +95,6 @@ const Skills = () => {
             <span><BiSearchAlt /></span>
             <span>SEO</span>
         </div>
-
 
     </section>
   )
