@@ -1,9 +1,9 @@
-import {AiOutlineHtml5, AiFillGithub, } from 'react-icons/ai'
-import {BiSearchAlt, BiGitBranch} from 'react-icons/bi'
-import {DiCss3Full} from 'react-icons/di'
-import {FaSass, FaShopify} from 'react-icons/fa'
+import {AiOutlineHtml5 } from 'react-icons/ai'
+import { BiSearchAlt, BiGitBranch} from 'react-icons/bi'
+import {DiMongodb, DiCss3Full} from 'react-icons/di'
+import { FaShopify, FaNodeJs} from 'react-icons/fa'
 import {GrReactjs} from 'react-icons/gr'
-import {SiGoogleanalytics, SiJavascript, SiTailwindcss} from 'react-icons/si'
+import {SiGoogleanalytics, SiJavascript, SiTailwindcss, SiExpress} from 'react-icons/si'
 import {TbWriting} from 'react-icons/tb'
 import style from './Skills.module.css'
 
@@ -65,15 +65,15 @@ const Skills = () => {
         <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2600">
-            <span><FaSass /></span>
-            <span>Sass</span>
+            <span><DiMongodb /></span>
+            <span>MongoDB</span>
         </div>
 
         <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2800">
-            <span><AiFillGithub /></span>
-            <span>GitHub</span>
+            <span><SiExpress /></span>
+            <span>ExpressJS</span>
         </div>
 
         <div data-aos="flip-left"
@@ -86,8 +86,8 @@ const Skills = () => {
         <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="3200">
-            <span><SiGoogleanalytics /></span>
-            <span>Google Analytics</span>
+            <span><FaNodeJs /></span>
+            <span>NodeJs</span>
         </div>
 
         <div data-aos="flip-left"
