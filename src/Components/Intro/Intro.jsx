@@ -7,7 +7,7 @@ const Intro = () => {
     <section className='intro'>
       <div className="intro-container">
         <h1 className='intro-text'><span className="red">   Web </span>Developer</h1>
-        <p className='intro-preface'>Hi, I'm David Bilson. I am a Web Developer, my specialization revolves around developing intuitive and user-friendly websites that enable businesses and individuals to effectively accomplish their objectives.</p>
+        <p className='intro-preface'>Hi, I'm David Bilson. I am a web developer, my specialization revolves around developing intuitive and user-friendly websites that enable businesses and individuals to effectively accomplish their objectives.</p>
         <span className='icon-container'>
         <a href="https://twitter.com/David_Bilsonn" target="_blank" className='icons'>
         <FiTwitter/>
