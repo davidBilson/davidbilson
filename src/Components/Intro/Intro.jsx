@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <section className='intro'>
       <div className="intro-container">
-        <h1 className='intro-text'>Senior<span className="red">   Web   Developer</span></h1>
+        <h1 className='intro-text'>Web<span className="red"> Developer</span></h1>
         <p className='intro-preface'>Hi, I'm David Bilson. I am a Fullstack Web Developer, my specialization revolves around developing intuitive and user-friendly websites that enable businesses and individuals to effectively accomplish their objectives.</p>
         <span className='icon-container'>
         <a href="https://twitter.com/David_Bilsonn" target="_blank" className='icons'>
