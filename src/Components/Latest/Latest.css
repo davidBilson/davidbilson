@@ -54,3 +54,15 @@
 .divide {
     margin: 0 10px;
 }
+.blog-button {
+    display: block;
+    padding: 15px 30px;
+    margin: auto;
+    margin-top: 80px;
+    background: var(--color2);
+    color: var(--color4);
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}

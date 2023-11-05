@@ -37,8 +37,10 @@ const Latest = () => {
                     <span>DevTo <span className="divide">|</span> March 4, 2023</span>
                 </p>
             </div>
-            
         </section>
+        <button className="blog-button"  onClick={() => window.open('https://dev.to/david_bilsonn','_blank',"noreferrer")} >
+            View Full Blog
+        </button>
     </section>
     </section>
   )
