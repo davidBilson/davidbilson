@@ -36,9 +36,8 @@ const Portfolio2 = () => {
         <div>
             <button>ReactJS</button>
             <button>JavaScript</button>
-            <button>Express</button>
-            <button>MongoDB</button>
-            <button>OAuth</button>
+            <button>CSS3</button>
+            <button>EmailJS</button>
         </div>
         <div className='live-site-box'>
             <button onClick={() => window.open('https://goradlab.vercel.app/','_blank',"noreferrer")} className='live-site'>
