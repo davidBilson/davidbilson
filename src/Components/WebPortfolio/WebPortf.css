@@ -44,7 +44,7 @@
     padding: 2rem;
 }
 .port-boxes > div:nth-child(1) {
-    height: 60%;
+    height: 54%;
     border-radius: inherit;
     overflow: hidden;
 }

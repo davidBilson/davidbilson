@@ -15,7 +15,7 @@ const Portfolio1 = () => {
   return (
     <div className='port-boxes' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
         <div>
-            <img src={HexpressGif} loading='lazy' alt="Wow Salons First Portfolio Image" />
+            <img src={HexpressGif} width={'100%'} loading='lazy' alt="Wow Salons First Portfolio Image" />
         </div>
         <div>
             <h3>Hexpress Delivery</h3>
