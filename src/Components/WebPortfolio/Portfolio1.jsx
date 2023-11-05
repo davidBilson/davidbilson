@@ -1,10 +1,11 @@
-import React from 'react'
 import HexpressGif from '../../Assets/hexpress.gif';
 import { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import './WebPortf.css'
 import {HiOutlineExternalLink} from 'react-icons/hi'
+import {BiCodeAlt} from 'react-icons/bi'
+import {FiInfo} from 'react-icons/fi'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -34,10 +35,11 @@ const Portfolio1 = () => {
             <p>Fastest Interstate Delivery & Easy Pickup Logistics - Business Website</p>
         </div>
         <div>
-            <button>ReactJS</button>
             <button>NodeJS</button>
+            <button>ReactJS</button>
             <button>Express</button>
             <button>MongoDB</button>
+            <button>CSS3</button>
             <button>OAuth</button>
         </div>
         <div className='live-site-box'>
@@ -45,8 +47,12 @@ const Portfolio1 = () => {
                 <HiOutlineExternalLink />
                 Live site
             </button>
+            <button className='live-site'>
+                <FiInfo />
+                Info
+            </button>
             <button onClick={notify}  className='live-site'>
-                <HiOutlineExternalLink />
+                <BiCodeAlt />
                 Code
             </button>
         </div>
