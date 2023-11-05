@@ -5,8 +5,20 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import './WebPortf.css'
 import {HiOutlineExternalLink} from 'react-icons/hi'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Portfolio1 = () => {
+    const notify = () => toast.info('Protected by Client NDA!', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        });
 
     useEffect(() => {
         AOS.init({duration:2000})
@@ -28,10 +40,16 @@ const Portfolio1 = () => {
             <button>MongoDB</button>
             <button>OAuth</button>
         </div>
-        <button onClick={() => window.open('https://hexpress.vercel.app/','_blank',"noreferrer")} className='live-site'>
-            <HiOutlineExternalLink />
-            Live site
-        </button>
+        <div className='live-site-box'>
+            <button onClick={() => window.open('https://hexpress.vercel.app/','_blank',"noreferrer")} className='live-site'>
+                <HiOutlineExternalLink />
+                Live site
+            </button>
+            <button onClick={notify}  className='live-site'>
+                <HiOutlineExternalLink />
+                Code
+            </button>
+        </div>
     </div>
   )
 }
