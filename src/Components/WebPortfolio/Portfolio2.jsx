@@ -1,4 +1,4 @@
-import HexpressGif from '../../Assets/hexpress.gif';
+import GoradGif from '../../Assets/gorad.gif';
 import { useEffect } from 'react';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -27,7 +27,7 @@ const Portfolio2 = () => {
   return (
     <div className='port-boxes' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
         <div>
-            <img src={HexpressGif} width={'100%'} loading='lazy' alt="Wow Salons First Portfolio Image" />
+            <img src={GoradGif} width={'100%'} loading='lazy' alt="Wow Salons First Portfolio Image" />
         </div>
         <div>
             <h3>GORAD Genomics - Washington D.C</h3>
@@ -41,7 +41,7 @@ const Portfolio2 = () => {
             <button>OAuth</button>
         </div>
         <div className='live-site-box'>
-            <button onClick={() => window.open('https://hexpress.vercel.app/','_blank',"noreferrer")} className='live-site'>
+            <button onClick={() => window.open('https://goradlab.vercel.app/','_blank',"noreferrer")} className='live-site'>
                 <HiOutlineExternalLink />
                 Live site
             </button>
