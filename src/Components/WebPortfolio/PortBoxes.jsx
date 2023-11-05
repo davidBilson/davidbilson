@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import ImageOne from '../../Assets/image1.webp';
 import ImageTwo from '../../Assets/image2.webp';
 import ImageThree from '../../Assets/image3.webp';
 import ImageFour from '../../Assets/image4.webp';
@@ -8,6 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import './WebPortf.css'
 import {HiOutlineExternalLink} from 'react-icons/hi'
+import Portfolio1 from './Portfolio1';
 
 const PortBoxes = () => {
 
@@ -17,25 +17,7 @@ const PortBoxes = () => {
 
   return (
     <div className='port-box-container' >
-        <div className='port-boxes' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-            <div>
-                <img src={ImageOne} loading='lazy' alt="Wow Salons First Portfolio Image" />
-            </div>
-            <div>
-                <h3>Wow Beauty Salon</h3>
-                <p>The website offers an intuitive modern design, allowing customers to easily book appointments and services.</p>
-            </div>
-            <div>
-                <button data-aos="fade-up">HTML</button>
-                <button data-aos="fade-up">CSS</button>
-                <button data-aos="fade-up">JAVASCRIPT</button>
-                <button data-aos="fade-up">RESOURCES</button>
-            </div>
-            <button onClick={() => window.open('https://www.wow-salons.com/','_blank',"noreferrer")} className='live-site'>
-                <HiOutlineExternalLink />
-                Live site
-            </button>
-        </div>
+        <Portfolio1 />
         <div className='port-boxes' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
                 <div>
                     <img src={ImageTwo} loading='lazy' alt="Wow Salons First Portfolio Image" />
