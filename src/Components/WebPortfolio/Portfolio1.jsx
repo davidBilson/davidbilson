@@ -49,7 +49,7 @@ const Portfolio1 = () => {
             </button>
             <button className='live-site'>
                 <FiInfo />
-                Info
+                Details
             </button>
             <button onClick={notify}  className='live-site'>
                 <BiCodeAlt />

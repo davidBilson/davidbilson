@@ -20,8 +20,14 @@ const About = () => {
                 <span className='line'></span>
             </div>
 
-            <p>I am a professional web developer and technical writer. I have a strong background in engineering on the frontend, creating functional and responsive websites. I write articles on high profile platforms like <a href="https://dev.to/david_bilsonn" style={underlineLink}>DevTo</a> and <a href="https://hashnode.com/@agileDevv" style={underlineLink}>HashNode</a>.
-            <br /> I coach and mentor devs that are just starting out in tech, helping them navigate their career path and the learning process through pair programming.            
+            <p>
+              I am a full-stack MERN developer, technical writer, and coding educator.
+              I bring a comprehensive skillset to the table, which empowers businesses to thrive in the digital age, giving them a noticeable presence on the internet.
+              My expertise lies in creating robust and scalable web applications using the MERN stack.
+              <br />
+              <br />
+              My writing skills enables me to transform complex technical concepts into clear and concise documentation, and articles which I publish on platforms like DevTo with a high view rate.
+              As a coding tutor, I am dedicated to helping others learn complex concepts in web development through peer programming.
             </p>
             <button onClick={downloadFile} download className="resume-btn"><AiOutlineDownload className='resume-download-icon' />Resume</button>
         </div>
