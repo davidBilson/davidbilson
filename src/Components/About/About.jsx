@@ -5,9 +5,7 @@ import {AiOutlineDownload} from 'react-icons/ai';
 import Resume from './David_Bilson_Resume_2_24.pdf'
 
 const About = () => {
-  const underlineLink = {
-    textDecoration: "underline"
-  }
+  
   const downloadFile = () => {
     const fileUrl = Resume;
     window.open(fileUrl, "_blank")
