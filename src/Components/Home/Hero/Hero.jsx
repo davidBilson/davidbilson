@@ -1,6 +1,5 @@
 import style from './Hero.module.css'
-import { FaXTwitter } from "react-icons/fa6";
-import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 import { PiDevToLogo } from "react-icons/pi";
 import header from '../../../Assets/header.jpg'
 
@@ -16,7 +15,7 @@ const Hero = () => {
             <p>Hi, I'm David Bilson. I am a Fullstack Software Developer, my specialization revolves around developing functional and user-friendly websites that enable businesses to scale.</p>
             <div>
               <a href="https://twitter.com/David_Bilsonn" target='_blank'>
-                Twitter <FaXTwitter size={12} />
+                Twitter <FiTwitter size={12} />
               </a>
               <a href="https://github.com/davidBilson" target='_blank'>
                 Github <FiGithub size={12} />
