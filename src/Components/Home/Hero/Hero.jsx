@@ -1,6 +1,5 @@
 import style from './Hero.module.css'
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
-import { PiDevToLogo } from "react-icons/pi";
 import header from '../../../Assets/header.jpg'
 
 const Hero = () => {
@@ -23,7 +22,7 @@ const Hero = () => {
               <a href="https://www.linkedin.com/in/david-bilson-2401981a5/" target='_blank'>
                 LinkedIn <FiLinkedin size={12} />
               </a>
-              <a href="https://dev.to/david_bilsonn" target='_blank'>Dev.to <PiDevToLogo size={16} /></a>
+              <a href="https://dev.to/david_bilsonn" target='_blank'>Dev.to </a>
             </div>
         </article>
         <div>
