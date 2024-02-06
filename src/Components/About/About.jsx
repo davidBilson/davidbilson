@@ -17,7 +17,6 @@ const About = () => {
                 <h2 data-aos="fade-in">About <span className="red">Me</span></h2>
                 <span className='line'></span>
             </div>
-
             <p>
               I am a full-stack MERN developer, technical writer, and coding educator.
               I bring a comprehensive skillset to the table, which empowers businesses to thrive in the digital age, giving them a noticeable presence on the internet.

@@ -1,0 +1,18 @@
+.nav {
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    width: 100%;
+    z-index: 10;
+}
+
+.nav > div {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: auto;
+}

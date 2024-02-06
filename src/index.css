@@ -1,4 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root {
+    --bg-color1:#111;
+    --bg-color2:#202020;
+    --color0:#1B1B2A;
+    --color1:#dc143c;
+    --color2:crimson;
+    --color3:grey;
+    --color4:rgb(238, 238, 238);
+    --color5:#202020;
+    --color6:lightgrey;
+    --color7:dimgrey;
+    --color8:rgb(238, 238, 238);
+    --color9:darkgrey;
+}
+/* width */
+:root {
+    --max-width: 1300px;
+}
+/* colors */
+:root {
+    --theme-purple: #bd34fe;
+    --theme-lightblue: #4b6cff;
+    --theme-dimwhite: #ebebf599;
+    --theme-light: #fffff5db;
+    --theme-dimLight: #ebebf599;
+    --theme-dark: #32363f;
+    --theme-darkBlack :#131314;
+    --theme-darkBg: #1b1b1f;
+}
+
 
 *, body {
     padding: 0;
@@ -8,7 +38,7 @@
     scroll-behavior: smooth;
 }
 body {
-    background: var(--bg-color1);
+    background: var(--theme-darkBg);
     overflow-y: scroll;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -27,20 +57,6 @@ a {
 }
 p {
     font-weight: 300;
-}
-:root {
-    --bg-color1:#111;
-    --bg-color2:#202020;
-    --color0:#1B1B2A;
-    --color1:crimson;
-    --color2:crimson;
-    --color3:grey;
-    --color4:rgb(238, 238, 238);
-    --color5:#202020;
-    --color6:lightgrey;
-    --color7:dimgrey;
-    --color8:rgb(238, 238, 238);
-    --color9:darkgrey;
 }
 .blue {
     color: blue;

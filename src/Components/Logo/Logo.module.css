@@ -1,0 +1,9 @@
+.logoContainer {
+    padding: 8px 30px;
+    background: var(--theme-darkBlack);
+    color: var(--theme-dimLight);
+    width: fit-content;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
