@@ -1,5 +1,5 @@
 .heroContainer {
-    padding: 200px 20px;
+    padding: 200px 20px 0px 20px;
     width: 100%;
     max-width: calc(var(--max-width) + 20px);
     margin: auto;
@@ -128,8 +128,11 @@
     }
 }
 @media screen and (max-width: 768px) {
+    .heroContainer {
+        padding: 120px 20px 0px 20px;        
+    }
     .heroContainer > article > h1 {
-        font-size: 38px;
+        font-size: 35px;
     }
     .heroContainer > article > p {
         font-size: 15px;       
@@ -137,5 +140,11 @@
     .heroContainer > article > div {
         width: 77%;
         gap: 15px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .heroContainer > div > img {
+        width: 260px;
+        height: 260px;
     }
 }
