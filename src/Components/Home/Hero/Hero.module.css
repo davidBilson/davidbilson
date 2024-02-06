@@ -132,7 +132,7 @@
         padding: 120px 20px 0px 20px;        
     }
     .heroContainer > article > h1 {
-        font-size: 35px;
+        font-size: 38px;
     }
     .heroContainer > article > p {
         font-size: 15px;       
@@ -143,6 +143,9 @@
     }
 }
 @media screen and (max-width: 480px) {
+    .heroContainer > article > h1 {
+        font-size: 35px;
+    }
     .heroContainer > div > img {
         width: 260px;
         height: 260px;
