@@ -49,7 +49,6 @@ ul {
 img {
     width: 100%;
     object-fit: cover;
-    border-radius: inherit;
 }
 a {
     text-decoration: none;
@@ -57,16 +56,4 @@ a {
 }
 p {
     font-weight: 300;
-}
-.blue {
-    color: blue;
-}
-.dodgerblue {
-    color: dodgerblue;
-}
-.red {
-    color: crimson;
-}
-.yellow {
-    color: yellow;
 }
