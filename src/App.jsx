@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <>
-      <ToastContainer />
+      <ToastContainer style={{color: "red"}} />
       <NavBar />
       <Home />
       <Projects />

@@ -2,48 +2,56 @@
     width: 100%;
     max-width: calc(var(--max-width) + 20px);
     margin: auto;
-    padding: 100px 20px;
+    padding: 80px 20px;
 }
 .projectContainer > h2 {
     color: var(--theme-lightblue);
     font-size: 38px;
+    margin-bottom: 30px;
 }
-.projectContainer > article {
-    padding-top: 30px;
+.projectContainer > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
 }
-.projectContainer > article > div {
+.projectContainer > div > article {
+    height: fit-content;
+}
+.projectContainer > div > article > div {
     width: 100%;
-    max-width: 372px;
+    max-width: 382px;
     height: 360px;
     border-radius: 10px;
     padding: 24px;
     overflow: hidden;
     background: #202127;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.projectContainer > article > div > img {
+.projectContainer > div > article > div > img {
     border-radius: 10px;
+    height: 170px;
 }
-.projectContainer > article > div > div {
+.projectContainer > div > article > div > div {
     width: 100%;
     height: fit-content;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.projectContainer > article > div > div > h3 {
+.projectContainer > div > article > div > div > h3 {
     font-size: 17px;
     color: #fffff5db;
 }
-.projectContainer > article > div > div > p {
+.projectContainer > div > article > div > div > p {
     font-size: 14px;
     color: #ebebf599;
     line-height: 20px;
 }
-.projectContainer > article > div > div > div {
+.projectContainer > div > article > div > div > div {
     display: flex;
     gap: 10px;
 }
@@ -60,4 +68,49 @@
     align-items: center;
     gap: 4px;
     cursor: pointer;
+}
+@media screen and (max-width: 1265px) {
+    .projectContainer > div {
+        justify-content: center;
+    }   
+    .projectContainer > div > article > div {
+        max-width: 382px;
+        height: 360px;
+        gap: 30px;
+    }
+    .projectContainer > div > article > div > img {
+        border-radius: 10px;
+        height: 250px;
+    }
+    .projectContainer > h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 960px) {
+    .projectContainer > div {
+        justify-content: center;
+    }   
+    .projectContainer > div > article > div {
+        max-width: 482px;
+        height: 460px;
+        gap: 30px;
+    }
+    .projectContainer > div > article > div > img {
+        border-radius: 10px;
+        height: 250px;
+    }
+    .projectContainer > h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 480px) {
+    .projectContainer > div > article > div {
+        max-width: 482px;
+        height: fit-content;
+    }
+    .projectContainer > div > article > div > img {
+        height: 180px;
+    }
 }
