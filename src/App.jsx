@@ -4,6 +4,7 @@ import Home from './Pages/Home'
 import NavBar from './layout/NavBar/NavBar'
 import Projects from './Components/Projects/Projects'
 import { ToastContainer} from 'react-toastify';
+import Skills from './Components/Skills/Skills'
 // Libraries
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <NavBar />
       <Home />
       <Projects />
+      <Skills />
       <Contact />
     </>
   )

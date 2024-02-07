@@ -57,3 +57,20 @@ a {
 p {
     font-weight: 300;
 }
+.section-generic-heading {
+    color: var(--theme-lightblue);
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1265px) {
+    .section-generic-heading {
+        font-size: 32px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 960px) {
+    .section-generic-heading {
+        font-size: 32px;
+        text-align: center;
+    }
+}
