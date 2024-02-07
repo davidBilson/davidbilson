@@ -16,7 +16,7 @@ const Projects = () => {
             progress: undefined,
             theme: "dark",
     });
-    
+        
   return (
     <section className={style.projectContainer}>
         <h2>Recent Projects</h2>
