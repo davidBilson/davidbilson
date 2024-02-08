@@ -35,28 +35,35 @@
     flex-wrap: wrap;
     gap: 9px;
 }
-.heroContainer > article > div > a:nth-child(1), a:nth-child(4) {
-    border-radius: 20px;
-    padding: 0 20px;
-    line-height: 38px;
-    border: 1px solid transparent;
-    text-align: center;
-    font-weight: 500;
-    font-size: 14px;
-    cursor: pointer;
+/* buttons */
+.heroContainer > article > div > a:nth-child(1) {
     background: var(--theme-lightblue);
     color: white;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    width: fit-content;
-    height: fit-content;
-    transition: .2s ease-in-out;
 }
+.heroContainer > article > div > a:nth-child(2) {
+    background: var(--theme-dark);
+    color: white;
+}
+.heroContainer > article > div > a:nth-child(3) {
+    background: var(--theme-dark);
+    color: white;
+}
+.heroContainer > article > div > a:nth-child(4) {
+    color: white;
+    background: var(--theme-dark);
+}
+.heroContainer > article > div > a:nth-child(5) {
+    background: var(--theme-lightblue);
+    color: white;
+}
+/* hover */
 .heroContainer > article > div > a:nth-child(1):hover, a:nth-child(4):hover {
     background: rgba(97, 107, 255, .8);
 }
-.heroContainer > article > div > a:nth-child(2), a:nth-child(3) {
+.heroContainer > article > div > a:nth-child(2):hover, a:nth-child(3):hover {
+    background: rgb(58, 63, 75)
+}
+.heroContainer > article > div > a {
     border-radius: 20px;
     padding: 0 20px;
     line-height: 38px;
@@ -65,17 +72,12 @@
     font-weight: 500;
     font-size: 14px;
     cursor: pointer;
-    background: var(--theme-dark);
-    color: white;
     display: flex;
     align-items: center;
     gap: 5px;
     width: fit-content;
     height: fit-content;
     transition: .2s ease-in-out;
-}
-.heroContainer > article > div > a:nth-child(2):hover, a:nth-child(3):hover {
-    background: rgb(58, 63, 75)
 }
 .heroContainer > div {
     width: 100%;

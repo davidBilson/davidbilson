@@ -6,6 +6,10 @@ import Projects from './Components/Projects/Projects'
 import { ToastContainer} from 'react-toastify';
 import Skills from './Components/Skills/Skills'
 // Libraries
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const App = () => {
 
