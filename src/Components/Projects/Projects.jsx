@@ -37,6 +37,7 @@ const styleButtonB = {
                     projectLink={"https://goradlab.vercel.app/"}
                     linkText={"Live site"}
                     showCodeButton={true}
+                    stack={["React", "JavaScript", "Google API"]}
                 />
             }
             {
@@ -48,6 +49,7 @@ const styleButtonB = {
                     projectLink={"https://hexpress.vercel.app/"}
                     linkText={"Live site"}
                     showCodeButton={true}
+                    stack={["JavaScript", "React", "Google API", "MongoDB", "ExpressJS", "NodeJS"]}
                 />
             }
             {

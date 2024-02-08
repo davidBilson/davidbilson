@@ -35,7 +35,7 @@
 .projectContainer > div > article > div {
     width: 100%;
     max-width: 382px;
-    height: 360px;
+    min-height: 370px;
     border-radius: 10px;
     padding: 24px;
     overflow: hidden;
@@ -54,7 +54,7 @@
     height: fit-content;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 12px;
 }
 .projectContainer > div > article > div > div > h3 {
     font-size: 17px;
@@ -64,6 +64,18 @@
     font-size: 14px;
     color: #ebebf599;
     line-height: 20px;
+}
+.stack {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 3px;
+    font-size: 10px;
+    color:#ebebf599;
+}
+.stack > span {
+    padding:3px;
+    border-radius: 3px;
+    border: 1px solid #32363f;
 }
 .projectContainer > div > article > div > div > div {
     display: flex;
@@ -92,7 +104,7 @@
     }
     .projectContainer > div > article > div {
         max-width: 382px;
-        height: 360px;
+        min-height: 360px;
         gap: 30px;
     }
     .projectContainer > div > article > div > img {
