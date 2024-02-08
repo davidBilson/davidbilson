@@ -10,7 +10,7 @@ const Projects = () => {
 
   return (
     <section className={style.projectContainer}>
-        <h2 className='section-generic-heading'>{'<Portfolio />'}</h2>
+        <h2 className='section-generic-heading'>{'// Portfolio'}</h2>
         <div>
             <ProjectI
                 projectImage={GoradGif}

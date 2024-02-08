@@ -10,7 +10,7 @@ import style from './Skills.module.css'
 const Skills = () => {
   return (
     <section className={style.sectionSkill}>
-    <h2 className='section-generic-heading'>{'<Skills />'}</h2>
+    <h2 className='section-generic-heading'>{'// Skills'}</h2>
     <section className={style.skillsSection} >
 
         <div
