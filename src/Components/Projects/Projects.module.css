@@ -86,7 +86,10 @@
 @media screen and (max-width: 1265px) {
     .projectContainer > div {
         justify-content: center;
-    }   
+    }
+    .projectContainer > section {
+        justify-content: center;
+    }
     .projectContainer > div > article > div {
         max-width: 382px;
         height: 360px;
