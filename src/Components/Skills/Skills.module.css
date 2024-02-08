@@ -70,6 +70,9 @@
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(14, 1fr);
     }
+    .skillsSection {
+        height: fit-content;
+    }
         
         .skdiv1 { grid-area: 1 / 1 / 3 / 3; }
         .skdiv2 { grid-area: 1 / 3 / 3 / 5; }
@@ -83,7 +86,9 @@
         .skdiv10 { grid-area: 11 / 1 / 13 / 3; }
         .skdiv11 { grid-area: 13 / 1 / 15 / 5; }
         .skdiv12 { grid-area: 11 / 3 / 13 / 5; }
+
         .skillsSection > div {
             padding: 20px;
+            height: 180px;
         }
 }
