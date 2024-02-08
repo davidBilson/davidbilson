@@ -9,7 +9,7 @@ const Hero = () => {
     <section className={style.heroContainer}>
         <article>
             <h1>
-                <span>FullStack</span>
+                <span data-aos="fade-up" data-aos-duration="1200">FullStack</span>
                 <span>Web Developer.</span>
                 <span>Technical Writer.</span>
             </h1>
