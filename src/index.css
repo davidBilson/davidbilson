@@ -60,7 +60,7 @@ p {
 .section-generic-heading {
     color: var(--theme-lightblue);
     font-size: 38px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 @media screen and (max-width: 1265px) {
     .section-generic-heading {

@@ -18,7 +18,7 @@ const ProjectI = ({ projectImage, projectName, projectDescription, projectLink, 
 
   return (
     <article>
-            <div className={style.project} data-aos="zoom-in" data-aos-duration="1000">
+            <div className={style.project} data-aos="fade-left" data-aos-duration="1000">
                 <img src={projectImage} alt="" />
                 <div>
                     <h3>{projectName}</h3>
