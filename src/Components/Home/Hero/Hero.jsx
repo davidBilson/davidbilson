@@ -1,5 +1,6 @@
 import style from './Hero.module.css'
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
+import { FaRegFilePdf, FaRegHandshake } from "react-icons/fa";
 import header from '../../../Assets/header.jpg'
 
 const Hero = () => {
@@ -14,10 +15,19 @@ const Hero = () => {
             <p>Hi, I'm David Bilson. I am a Fullstack Software Developer, my specialization revolves around developing functional and user-friendly websites that enable businesses to scale.</p>
             <div>
               <a href="https://twitter.com/David_Bilsonn" target='_blank'>
+                Hire Me <FaRegHandshake size={12} />
+              </a>
+              <a href="https://twitter.com/David_Bilsonn" target='_blank'>
+                Resume <FaRegFilePdf size={12} />
+              </a>
+              <a href="https://twitter.com/David_Bilsonn" target='_blank'>
                 Twitter <FiTwitter size={12} />
               </a>
               <a href="https://github.com/davidBilson" target='_blank'>
                 Github <FiGithub size={12} />
+              </a>
+              <a href="https://www.linkedin.com/in/david-bilson-2401981a5/" target='_blank'>
+                LinkedIn <FiLinkedin size={12} />
               </a>
               <a href="https://www.linkedin.com/in/david-bilson-2401981a5/" target='_blank'>
                 LinkedIn <FiLinkedin size={12} />
