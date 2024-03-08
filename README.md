@@ -25,7 +25,6 @@ As a FullStack Software Developer, I specialize in developing functional and use
 1. Clone this repository: `git clone <repository-url>`
 2. Install dependencies: `npm install`
 3. Run the development server: `npm run dev`
-4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Deployment
 
