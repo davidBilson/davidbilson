@@ -65,7 +65,7 @@ const ProjectI = ({
                         </button>
                         {
                           showCodeButton &&
-                        <button onClick={projectName === "Hexpress Delivery" ? () => setShowModal(true) : notify}  className={style.linkBtn}>
+                        <button onClick={projectName === "Hexpress Delivery" ? () => setShowModal(true) : () => notify}  className={style.linkBtn}>
                             <BiCodeAlt />
                             Code
                         </button>
