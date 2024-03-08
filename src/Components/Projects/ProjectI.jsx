@@ -2,30 +2,53 @@ import style from './Projects.module.css';
 import {HiOutlineExternalLink} from 'react-icons/hi';
 import {BiCodeAlt} from 'react-icons/bi';
 import { toast } from 'react-toastify';
+import { useState } from 'react';
 
-const ProjectI = ({ stack, projectImage, projectName, projectDescription, projectLink, linkText, showCodeButton }) => {
+const ProjectI = ({ 
+    stack,
+    projectImage,
+    projectName,
+    projectDescription,
+    projectLink,
+    linkText,
+    showCodeButton
+  }) => {
+  
+  const [showModal, setShowModal] = useState(false)
 
-  const notify = () => toast.info('Protected by Client NDA!', 
-  {
-    position: "top-center",
-    autoClose: 5000,
-    hideProgressBar: false,
-    closeOnClick: true,
-    pauseOnHover: true,
-    draggable: true,
-    progress: undefined,
-    theme: "dark",
-  }
-  );
+  const notify = () => {
+    
+    toast.info('Protected by Client NDA!', 
+      {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      }
+    )
+  };
   
   return (
     <article>
             <div className={style.project} data-aos="zoom-in" data-aos-duration="1000">
                 <img src={projectImage} alt="" />
                 <div>
+                  {
+                    showModal &&
+                    <div className={style.showCodeModal}>
+                      <a href="https://github.com/davidBilson/hexpressFE" target='_blank'>Frontend Code Base</a>
+                      <a href="https://github.com/davidBilson/hexpressBE" target='_blank'>Backend Code Base</a>
+                      <button onClick={() => setShowModal(false)} >close</button>
+                    </div>
+                  }
                     <h3>{projectName}</h3>
                     <p>{projectDescription}</p>
-                    {showCodeButton &&
+                    { 
+                      showCodeButton &&
                       <small className={style.stack}>
                         {stack[0] && <span>{stack[0]}</span>}
                         {stack[1] && <span>{stack[1]}</span>}
@@ -42,7 +65,7 @@ const ProjectI = ({ stack, projectImage, projectName, projectDescription, projec
                         </button>
                         {
                           showCodeButton &&
-                        <button onClick={notify}  className={style.linkBtn}>
+                        <button onClick={projectName === "Hexpress Delivery" ? () => setShowModal(true) : notify}  className={style.linkBtn}>
                             <BiCodeAlt />
                             Code
                         </button>
@@ -52,6 +75,6 @@ const ProjectI = ({ stack, projectImage, projectName, projectDescription, projec
             </div>
         </article>
   )
-}
+};
 
-export default ProjectI
+export default ProjectI;

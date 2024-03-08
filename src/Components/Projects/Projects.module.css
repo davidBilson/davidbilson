@@ -24,6 +24,7 @@
     font-size: 15px;
 }
 .projectContainer > div {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -83,9 +84,9 @@
 }
 .linkBtn {
     background-color: #65758529;
+    color: #fffff5db;
     border: none;
     outline: none;
-    color: #fffff5db;
     padding: 5px 8px;
     font-size: 13px;
     border-radius: 5px;
@@ -93,6 +94,29 @@
     justify-content: center;
     align-items: center;
     gap: 4px;
+    cursor: pointer;
+}
+.showCodeModal {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: #202127;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+.showCodeModal > a {
+    color: var(--color7);
+    text-decoration: underline var(--theme-lightblue);
+}
+.showCodeModal > button {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #65758529;
+    color: #fffff5db;
     cursor: pointer;
 }
 @media screen and (max-width: 1265px) {
