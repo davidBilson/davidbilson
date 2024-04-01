@@ -10,6 +10,8 @@ const ProjectI = ({
     projectName,
     projectDescription,
     projectLink,
+    projectgitHubFE,
+    projectgitHubBE,
     linkText,
     showCodeButton
   }) => {
@@ -40,8 +42,8 @@ const ProjectI = ({
                   {
                     showModal &&
                     <div className={style.showCodeModal}>
-                      <a href="https://github.com/davidBilson/hexpressFE" target='_blank'>Frontend Code Base</a>
-                      <a href="https://github.com/davidBilson/hexpressBE" target='_blank'>Backend Code Base</a>
+                      {projectgitHubFE && <a href={projectgitHubFE} target='_blank'>Frontend Code Base</a>}
+                      {projectgitHubBE && <a href={projectgitHubBE} target='_blank'>Backend Code Base</a>}
                       <button onClick={() => setShowModal(false)} >close</button>
                     </div>
                   }
@@ -83,5 +85,4 @@ const ProjectI = ({
         </article>
   )
 };
-
 export default ProjectI;
