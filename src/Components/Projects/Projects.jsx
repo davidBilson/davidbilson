@@ -10,10 +10,12 @@ import EmailArticle from '../../Assets/emailArticle.jpeg';
 const Projects = () => {
 
 const [ switchPortfolioView, setSwitchPortfolioView ] = useState(true);
+
 const styleButtonA = {
     color: switchPortfolioView ? "#fffff5db" : "#ebebf599",
     borderBottom: switchPortfolioView ? "2px solid #4b6cff": "none"
 }
+
 const styleButtonB = {
     color: !switchPortfolioView ? "#fffff5db" : "#ebebf599",
     borderBottom: !switchPortfolioView ? "2px solid #4b6cff": "none"

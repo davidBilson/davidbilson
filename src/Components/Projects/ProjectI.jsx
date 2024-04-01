@@ -59,7 +59,7 @@ const ProjectI = ({
                       </small>
                     }
                     <div>
-                        <button onClick={() => window.open({projectLink},'_blank',"noreferrer")} className={style.linkBtn}>
+                        <button onClick={() => window.open(projectLink,'_blank',"noreferrer")} className={style.linkBtn}>
                             <HiOutlineExternalLink />
                             {linkText}
                         </button>
