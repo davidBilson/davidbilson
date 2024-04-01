@@ -39,14 +39,14 @@ const ProjectI = ({
             <div className={style.project} data-aos="zoom-in" data-aos-duration="1000">
                 <img src={projectImage} alt="" />
                 <div>
-                  {
+                  {projectgitHubFE && <>{ 
                     showModal &&
                     <div className={style.showCodeModal}>
-                      {projectgitHubFE && <a href={projectgitHubFE} target='_blank'>Frontend Code Base</a>}
-                      {projectgitHubBE && <a href={projectgitHubBE} target='_blank'>Backend Code Base</a>}
+                      <a href={projectgitHubFE} target='_blank'>Frontend Code Base</a>
+                      <a href={projectgitHubBE} target='_blank'>Backend Code Base</a>
                       <button onClick={() => setShowModal(false)} >close</button>
                     </div>
-                  }
+                  }</>}
                     <h3>{projectName}</h3>
                     <p>{projectDescription}</p>
                     { 
