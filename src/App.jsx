@@ -9,6 +9,7 @@ import Skills from './Components/Skills/Skills'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
+import { Analytics } from "@vercel/analytics/react"
 
 AOS.init();
 
@@ -16,6 +17,7 @@ const App = () => {
 
   return (
     <>
+      <Analytics/>
       <ToastContainer style={{color: "red"}} />
       <NavBar />
       <Home />
